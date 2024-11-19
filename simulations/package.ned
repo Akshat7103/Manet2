@@ -23,6 +23,6 @@ network new
             @display("p=175,35");
         }
     connections:
-        server.ethg[0] <--> Eth100M <--> client.ethg[0];
+        server.ethg++ <--> Eth100M <--> client.ethg++;
 }
 
